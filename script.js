@@ -27,7 +27,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         isValid = false;
         
     } else if (!validateEmail(email)) {
-        errorEmail.textContent = 'Email inválido.'
+        errorEmail.textContent = 'Email inválido. Digite uma email correto!'
         isValid = false;
     }
 
